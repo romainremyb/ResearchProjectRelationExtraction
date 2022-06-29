@@ -1,6 +1,6 @@
 # ResearchProjectRelationExtraction
 
-The seed dataset in contained here{https://github.com/romainremyb/ResearchProjectRelationExtraction/tree/main/rawdata}. Labelled datasets for both NER and relation extraction tasks are displayed there{https://github.com/romainremyb/ResearchProjectRelationExtraction/tree/main/labelledData}.
+The seed dataset in contained [here]{https://github.com/romainremyb/ResearchProjectRelationExtraction/tree/main/rawdata}. Labelled datasets for both NER and relation extraction tasks are displayed there{https://github.com/romainremyb/ResearchProjectRelationExtraction/tree/main/labelledData}.
 
 This file{https://github.com/romainremyb/ResearchProjectRelationExtraction/blob/main/unsupervised_methods.py} contains the unsupervised methods developed at the beginning of the project to extract labelled data from raw texts. The notebook{https://github.com/romainremyb/ResearchProjectRelationExtraction/blob/main/unsupervised_relationExploration.ipynb} make use of these methods and also displays the number of manually labeled relations.
 
