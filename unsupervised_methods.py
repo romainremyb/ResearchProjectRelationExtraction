@@ -7,7 +7,7 @@ import spacy
 
 # note: relations are extracted for data with both coreference resolution and not, they are appended so you can expect duplicates
 
-class save_datas(object):
+class save_datas(object):  # preprocess list of input text 
     def __init__(self, datadir, model):
         self.datadir=datadir
         self.model=model
@@ -60,7 +60,7 @@ class extraction(object):
                         ents.append(x.text)
         return ents
 
-    def find_org(self, s, ents): # iterates through tokens to find stored entities
+    def find_org(self, s, ents): # iterates through tokens to find index stored entities
         i=0
         ind=[]
         for token in s:
